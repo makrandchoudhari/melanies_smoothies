@@ -44,7 +44,7 @@ if time_to_insert:
 # new section to display smoothiefruit nutrition information 
 import requests
 smoothiefruit_responce = requests.get("https://www.fruityvice.com")
-st.text(smoothiefruit_responce)
+st.text(smoothiefruit_responce.json())
 
 
 
